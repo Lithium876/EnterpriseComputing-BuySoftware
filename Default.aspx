@@ -19,7 +19,7 @@
             <div class="wrap">
                 <div class="header_top">
                     <div class="logo">
-                        <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server">
+                        <asp:HyperLink ID="hl_home" NavigateUrl="~/Default.aspx" runat="server">
                             <img src="App_Theme/images/logo.png" /></asp:HyperLink>
                     </div>
                     <div class="header_top_right">

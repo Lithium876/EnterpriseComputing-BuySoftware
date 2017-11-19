@@ -42,7 +42,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Amount Bought:</td>
+                    <td>Quantity:</td>
                     <td>
                         <asp:Label ID="lblAmount" runat="server" Text="Label"></asp:Label></td>
                 </tr>

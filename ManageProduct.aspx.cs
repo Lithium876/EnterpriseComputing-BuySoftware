@@ -101,6 +101,10 @@ public partial class ManageProduct : System.Web.UI.Page
             case ".gif":
                 contenttype = "image/gif";
                 break;
+
+            case ".jpeg":
+                contenttype = "image/jpeg";
+                break;
         }
 
         if (contenttype != String.Empty)
@@ -140,6 +144,6 @@ public partial class ManageProduct : System.Web.UI.Page
             lblmessage.Text = "File format not recognised." +
               " Please select a Image format .png .jpg OR .gif";
         }
-        Response.Redirect("ManageProduct.aspx", false);
+       Response.Redirect("ManageProduct.aspx", false);
     }
 }
