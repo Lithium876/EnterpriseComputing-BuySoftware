@@ -15,6 +15,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
+
+        <%--Header--%>
         <div class="header">
             <div class="wrap">
                 <div class="header_top">
@@ -29,6 +31,7 @@
                 </div>
             </div>
         </div>
+        <%----------%>
 
         <div class="wrap">
 
@@ -274,7 +277,6 @@
                     <asp:Button ID="btnSubmit" runat="server" CssClass="btn btn-success" class="" Text="SUBMIT" OnClick="btnSubmit_Click" />
                 </div>
                 <%---------------%>
-
             </div>
             <%--------------------%>
 

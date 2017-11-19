@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-//ID#: 1401375
+﻿//ID#: 1401375
 //Developer: Lomar Lilly
 //Module: Enterprise Computing
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -20,7 +20,7 @@ public partial class CheckOut : System.Web.UI.Page
         lblTotalCostOutput.Text = Convert.ToString(software.calculateSoftwareTotalCost());
 
     }
-   
+
     protected void btnBuy_Click(object sender, EventArgs e)
     {
         int SoftwareId;

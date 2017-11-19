@@ -7,6 +7,7 @@
 
 <asp:Content ID="MyHead" runat="server" ContentPlaceHolderID="head"></asp:Content>
 <asp:Content ID="MyMain" runat="server" ContentPlaceHolderID="MainContent">
+
     <%--Details View--%>
     <asp:DetailsView ID="dvSoftwareDetails" CssClass="table" runat="server" Height="16px" Width="955px" AutoGenerateRows="False" DataSourceID="sdsSoftware">
         <Fields>

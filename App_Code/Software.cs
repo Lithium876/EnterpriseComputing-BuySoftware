@@ -1,4 +1,8 @@
-﻿using System;
+﻿//ID#: 1401375
+//Developer: Lomar Lilly
+//Module: Enterprise Computing
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,16 +18,16 @@ public class Software
     public String SoftwareCost { get; set; }
     public Double SoftwareTotalCost { get; set; }
 
-    public Double calculateSoftwareTotalCost() 
+    public Double calculateSoftwareTotalCost()
     {
         SoftwareCost = SoftwareCost.Replace(", ", "");
         return Convert.ToDouble(SoftwareCost) * SoftwareAmount;
     }
 
-	public Software()
-	{
-		//
-		// TODO: Add constructor logic here
-		//
-	}
+    public Software()
+    {
+        //
+        // TODO: Add constructor logic here
+        //
+    }
 }

@@ -27,7 +27,7 @@ public partial class details : System.Web.UI.Page
         software.SoftwareId = lblSoftwareName.Text;
         software.SoftwareAmount = Convert.ToInt32(amount.Text);
         software.SoftwareCost = cost.Text;
-        
+
         Session["Software"] = software;
         Response.Redirect("CheckOut.aspx");
     }

@@ -1,4 +1,8 @@
-﻿using System;
+﻿//ID#: 1401375
+//Developer: Lomar Lilly
+//Module: Enterprise Computing
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -17,10 +21,10 @@ public class Customer
     public string PaymentMethodText { get; set; }
     public Boolean NewsLetter { get; set; }
 
-	public Customer()
-	{
-		//
-		// TODO: Add constructor logic here
-		//
-	}
+    public Customer()
+    {
+        //
+        // TODO: Add constructor logic here
+        //
+    }
 }

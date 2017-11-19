@@ -131,7 +131,6 @@
             </div>
         </div>
 
-
         <%--Control for Category ID--%>
         <asp:TextBox ID="txtCategory" runat="server" Visible="False" Style="margin-top: 0px"></asp:TextBox>
         <%---------------------------%>

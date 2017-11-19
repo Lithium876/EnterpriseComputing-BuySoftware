@@ -10,15 +10,17 @@
         <div class="preview-page ">
             <h3>Payment Summery</h3>
 
+            <%--Thanks for Shopping--%>
             <div class="grid images_3_of_2">
                 <ul id="etalage">
                     <li>
                         <a href="#">
-                            <img Height="300" Width="400" src="App_Theme/images/thanks.jpg" />
+                            <img height="300" width="400" src="App_Theme/images/thanks.jpg" />
                         </a>
                     </li>
                 </ul>
             </div>
+            <%------------------------%>
 
             <%--Display customer Receipt--%>
             <table class="table">
