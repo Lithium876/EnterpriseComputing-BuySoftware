@@ -10,14 +10,7 @@ article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, s
 ol,ul{list-style:none;margin:0;padding:0;}
 blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
-table{border-collapse:collapse;border-spacing:0;
-    margin-right: 0;
-}
-
- .hide
-    {
-        display:none;
-    }
+table{border-collapse:collapse;border-spacing:0;}
 /* start editing from here */
 a{text-decoration:none;}
 .txt-rt{text-align:right;}/* text align right */
@@ -39,6 +32,7 @@ img{max-width:100%;}
     font-family: 'Ubuntu Condensed', sans-serif;
     src:url(../font/Amble-Regular-webfont.ttf) format('truetype');
 }
+
 body {
 	font-family: 'Ubuntu Condensed', sans-serif;
 	background:#ebebeb;
@@ -136,7 +130,7 @@ body {
     width:95%;
      border-top:1px solid #DB3C15;
      border-bottom:1px solid #DB3C15;
-     background:url("../images/nav-icon.png") no-repeat 98% center;
+     background:url("/App_Theme/images/nav-icon.png") no-repeat 98% center;
 }
 .nav {
     list-style: none;
@@ -156,6 +150,12 @@ body {
     list-style: none;
     width:11em;
 }
+
+ .hide
+    {
+        display:none;
+    }
+
 .nav a {
     padding:16px 33px;
     color:#ffb29f;
@@ -422,11 +422,16 @@ body {
 	background:#23272a !important;
 	margin-bottom:10px !important;
 	padding-left:10px !important;
-    top: 0px;
-    left: 0px;
-    width: 1004px;
 }
-
+.content-bottom-right h3:before,.preview-page h3:before{
+	content:'';
+	position:absolute;
+	right:0;
+	top:0;
+	border-width:22px 15px 20px 0px;
+	border-style: solid;
+	border-color: rgba(255, 0, 0, 0) #ebebeb rgba(0, 0, 255, 0) rgba(0, 128, 0, 0) ;
+}
 .categories li a{
 	display:block;
 	font-size:15px;
@@ -601,7 +606,7 @@ body {
 }
 .product-articles p a{
 	color:#e44f2b;
-	font-size:14px;
+	font-size;14px;
 }
 .product-articles p a:hover{
 	text-decoration:underline;
@@ -734,7 +739,7 @@ body {
 	margin: 0% 0 0% 2.6%;
 }
 .span_1_of_2 {
-	width:100%;
+	width:76.6%;
 	padding: 1.5% 0;
 }
 .images_3_of_2 {
@@ -812,7 +817,6 @@ body {
 	padding:3px 5px;
 	outline:none;
 	margin-left:5px;
-    margin-right: 30px;
 	font-size:20px;
 	color:#444;
 }

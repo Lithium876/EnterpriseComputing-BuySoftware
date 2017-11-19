@@ -1,4 +1,8 @@
-﻿using System;
+﻿//ID#: 1401375
+//Developer: Lomar Lilly
+//Module: Enterprise Computing
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -85,11 +89,12 @@ public partial class _Default : System.Web.UI.Page
         _pageHeader.Text = "VPNs / Privacy Software";
     }
 
-    protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+    protected void gvSoftware_SelectedIndexChanged(object sender, EventArgs e)
     {
-        String name = GridView1.SelectedRow.Cells[3].Text;
-        Session["Software Name"] = name;
+        String ID = gvSoftware.SelectedRow.Cells[3].Text;
+        Session["Software ID"] = ID;
 
         Response.Redirect("ProductPage.aspx");
     }
+  
 }

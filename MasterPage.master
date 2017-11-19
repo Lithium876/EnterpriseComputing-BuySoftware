@@ -1,0 +1,73 @@
+﻿<%--ID#: 1401375
+    Developer: Lomar Lilly
+    Module: Enterprise Computing--%>
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="App_Theme/css/style.css" rel="stylesheet" />
+    <link href="App_Theme/css/bootstrap.css" rel="stylesheet" />
+    <script src="App_Theme/js/jquery-1.9.0.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="wrap">
+                <div class="header_top">
+                    <div class="logo">
+                        <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Default.aspx" runat="server">
+                            <img src="App_Theme/images/logo.png" /></asp:HyperLink>
+                    </div>
+                    <div class="header_top_right">
+                        <asp:HyperLink ID="hlManageProduct" NavigateUrl="~/ManageProduct.aspx" runat="server">Manage Products</asp:HyperLink>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navigation">
+                    <a class="toggleMenu" href="#">Menu</a>
+                    <ul class="nav">
+                        <li>
+                            <asp:HyperLink ID="hlHome" NavigateUrl="~/Default.aspx" runat="server">Home</asp:HyperLink>
+                        </li>
+                        <li class="test">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <span class="left-ribbon"></span>
+                    <span class="right-ribbon"></span>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 20px">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="footer">
+                <div class="wrap">
+                    <div class="copy_right">
+                        <p>(c)Copyrights. All rights Reseverd eSafe Solutions 2017</p>
+                    </div>
+                    <div class="footer-nav">
+                        <ul>
+                            <li><a href="#">Terms of Use</a> : </li>
+                            <li><a href="#">Privacy Policy</a> : </li>
+                            <li><a href="#">Contact Us</a> : </li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>
