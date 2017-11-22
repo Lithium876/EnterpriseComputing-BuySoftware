@@ -1,4 +1,4 @@
-# EnterpriseComputing-BuySoftware
+# Enterprise Computing 1 - Final Project : Buy Software
 ## Preview 
 
 ### Main Page
