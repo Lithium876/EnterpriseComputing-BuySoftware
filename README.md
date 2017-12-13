@@ -1,4 +1,4 @@
-![prject grade](https://img.shields.io/badge/Project%20Grade-100%25-green.svg)
+![prject grade](https://img.shields.io/badge/Project%20Grade-100%25-brightgreen.svg)
 
 # Enterprise Computing 1 - Final Project : Buy Software
 ## Preview 
